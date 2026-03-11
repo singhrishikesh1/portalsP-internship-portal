@@ -52,7 +52,7 @@ const Profile = () => {
                 </div>
                 <div>
                   <label className="mb-1.5 block text-xs font-medium text-foreground">Phone</label>
-                  <input defaultValue="+1 (555) 123-4567" className={inputClass} />
+                  <input defaultValue="+91 9999999999" className={inputClass} />
                 </div>
                 <div>
                   <label className="mb-1.5 block text-xs font-medium text-foreground">Location</label>
