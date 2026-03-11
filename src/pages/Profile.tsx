@@ -48,7 +48,7 @@ const Profile = () => {
                 </div>
                 <div>
                   <label className="mb-1.5 block text-xs font-medium text-foreground">Email</label>
-                  <input defaultValue="alex@university.edu" className={inputClass} />
+                  <input defaultValue="rishikesh@university.edu" className={inputClass} />
                 </div>
                 <div>
                   <label className="mb-1.5 block text-xs font-medium text-foreground">Phone</label>
