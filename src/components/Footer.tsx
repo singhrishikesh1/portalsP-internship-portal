@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.jpeg";
 
 const Footer = () => (
   <footer className="border-t border-border bg-card">
@@ -6,9 +7,7 @@ const Footer = () => (
       <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
         <div>
           <div className="mb-4 flex items-center gap-2">
-            <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-accent">
-              <span className="text-xs font-bold text-accent-foreground">P</span>
-            </div>
+            <img src={logo} alt="PortalsP" className="h-7 w-auto rounded" />
             <span className="font-bold text-foreground">PortalsP</span>
           </div>
           <p className="text-sm text-muted-foreground">Find your dream internship at top companies worldwide.</p>

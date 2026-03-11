@@ -17,7 +17,8 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 border-b border-border bg-card/80 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="PortalsP" className="h-8 w-auto" />
+          <img src={logo} alt="PortalsP" className="h-8 w-auto rounded" />
+          <span className="text-lg font-bold text-foreground">PortalsP</span>
         </Link>
 
         <div className="hidden items-center gap-1 md:flex">
