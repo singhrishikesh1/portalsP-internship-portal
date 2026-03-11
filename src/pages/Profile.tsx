@@ -7,7 +7,7 @@ import ProfileCard from "@/components/ProfileCard";
 const Profile = () => {
   const [skills, setSkills] = useState(["React", "TypeScript", "Python", "Figma"]);
   const [newSkill, setNewSkill] = useState("");
-  const [portfolioLinks, setPortfolioLinks] = useState(["https://github.com/alexj", "https://alexj.dev"]);
+  const [portfolioLinks, setPortfolioLinks] = useState(["https://github.com/rishikesh-singh", "https://linkedin.com/in/rishikesh-singh"]);
   const [newLink, setNewLink] = useState("");
 
   const addSkill = () => {
