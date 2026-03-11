@@ -65,9 +65,9 @@ const Profile = () => {
             <div className="rounded-xl border border-border bg-card p-6 shadow-card">
               <h2 className="mb-4 text-sm font-semibold text-foreground">Education</h2>
               <div className="rounded-lg bg-secondary p-4">
-                <p className="text-sm font-medium text-foreground">Stanford University</p>
-                <p className="text-xs text-muted-foreground">B.S. Computer Science · 2024 – 2028</p>
-                <p className="text-xs text-muted-foreground">GPA: 3.8/4.0</p>
+                <p className="text-sm font-medium text-foreground">G H Raisoni College of Engineering and Management, Pune</p>
+                <p className="text-xs text-muted-foreground">BTech in Computer Engineering · 2024 – 2028</p>
+                <p className="text-xs text-muted-foreground">GPA: 9.75/10.0</p>
               </div>
             </div>
 
