@@ -44,7 +44,7 @@ const Profile = () => {
               <div className="grid gap-4 sm:grid-cols-2">
                 <div>
                   <label className="mb-1.5 block text-xs font-medium text-foreground">Full Name</label>
-                  <input defaultValue="Alex Johnson" className={inputClass} />
+                  <input defaultValue="Rishikesh Singh" className={inputClass} />
                 </div>
                 <div>
                   <label className="mb-1.5 block text-xs font-medium text-foreground">Email</label>
