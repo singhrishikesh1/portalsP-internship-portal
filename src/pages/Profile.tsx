@@ -56,7 +56,7 @@ const Profile = () => {
                 </div>
                 <div>
                   <label className="mb-1.5 block text-xs font-medium text-foreground">Location</label>
-                  <input defaultValue="San Francisco, CA" className={inputClass} />
+                  <input defaultValue="Pune, Maharashtra, India" className={inputClass} />
                 </div>
               </div>
             </div>
