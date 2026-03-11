@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Search, Menu, X, Bookmark, User } from "lucide-react";
+import logo from "@/assets/logo.jpeg";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -16,10 +17,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 border-b border-border bg-card/80 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent">
-            <span className="text-sm font-bold text-accent-foreground">P</span>
-          </div>
-          <span className="text-lg font-bold text-foreground">PortalsP</span>
+          <img src={logo} alt="PortalsP" className="h-8 w-auto" />
         </Link>
 
         <div className="hidden items-center gap-1 md:flex">

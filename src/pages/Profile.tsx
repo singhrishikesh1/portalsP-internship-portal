@@ -7,7 +7,7 @@ import ProfileCard from "@/components/ProfileCard";
 const Profile = () => {
   const [skills, setSkills] = useState(["React", "TypeScript", "Python", "Figma"]);
   const [newSkill, setNewSkill] = useState("");
-  const [portfolioLinks, setPortfolioLinks] = useState(["https://github.com/alexj", "https://alexj.dev"]);
+  const [portfolioLinks, setPortfolioLinks] = useState(["https://github.com/rishikesh-singh", "https://linkedin.com/in/rishikesh-singh"]);
   const [newLink, setNewLink] = useState("");
 
   const addSkill = () => {
@@ -34,7 +34,7 @@ const Profile = () => {
 
         <div className="grid gap-6 lg:grid-cols-3">
           <div className="lg:col-span-1">
-            <ProfileCard name="Alex Johnson" email="alex@university.edu" location="San Francisco, CA" avatar="A" completion={72} />
+            <ProfileCard name="Rishikesh Singh" email="rishikesh@university.edu" location="Pune, Maharashtra, India" avatar="R" completion={72} />
           </div>
 
           <div className="flex flex-col gap-6 lg:col-span-2">
@@ -44,19 +44,19 @@ const Profile = () => {
               <div className="grid gap-4 sm:grid-cols-2">
                 <div>
                   <label className="mb-1.5 block text-xs font-medium text-foreground">Full Name</label>
-                  <input defaultValue="Alex Johnson" className={inputClass} />
+                  <input defaultValue="Rishikesh Singh" className={inputClass} />
                 </div>
                 <div>
                   <label className="mb-1.5 block text-xs font-medium text-foreground">Email</label>
-                  <input defaultValue="alex@university.edu" className={inputClass} />
+                  <input defaultValue="rishikesh@university.edu" className={inputClass} />
                 </div>
                 <div>
                   <label className="mb-1.5 block text-xs font-medium text-foreground">Phone</label>
-                  <input defaultValue="+1 (555) 123-4567" className={inputClass} />
+                  <input defaultValue="+91 9999999999" className={inputClass} />
                 </div>
                 <div>
                   <label className="mb-1.5 block text-xs font-medium text-foreground">Location</label>
-                  <input defaultValue="San Francisco, CA" className={inputClass} />
+                  <input defaultValue="Pune, Maharashtra, India" className={inputClass} />
                 </div>
               </div>
             </div>
@@ -65,9 +65,9 @@ const Profile = () => {
             <div className="rounded-xl border border-border bg-card p-6 shadow-card">
               <h2 className="mb-4 text-sm font-semibold text-foreground">Education</h2>
               <div className="rounded-lg bg-secondary p-4">
-                <p className="text-sm font-medium text-foreground">Stanford University</p>
-                <p className="text-xs text-muted-foreground">B.S. Computer Science · 2024 – 2028</p>
-                <p className="text-xs text-muted-foreground">GPA: 3.8/4.0</p>
+                <p className="text-sm font-medium text-foreground">G H Raisoni College of Engineering and Management, Pune</p>
+                <p className="text-xs text-muted-foreground">BTech in Computer Engineering · 2024 – 2028</p>
+                <p className="text-xs text-muted-foreground">GPA: 9.75/10.0</p>
               </div>
             </div>
 
